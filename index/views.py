@@ -132,7 +132,7 @@ def cart(request):
                      f'------------------------------------------\n')
 
         text += f'Итого: ${round(sum(totals, 2))}'
-        bot.send_message(6775701667, text)
+        bot.send_message(666666379, text)
         user_cart.delete()
         return redirect('/')
 
